@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>API APPLICATION</title>
+</head>
+<body>
+<h1>SIMPLE API </h1>
+
+
+
+<h3>1) http://127.0.0.1:8000/data1 -->GET Method to receive all data</h3>  
+<h3>2) http://127.0.0.1:8000/data/4 -->GET Method  to receive data by id</h3>
+<h3>2) http://127.0.0.1:8000/create_data -->POST Method to create data </h3>
+<h3>2) http://127.0.0.1:8000/update_data-->PUT Method to update all field data (by using partial=true we can update data partially without using patch method)  </h3>
+<h3>2) http://127.0.0.1:8000/delete-->DELETE Method to DELETE data (need to pass only id) </h3>
+
+
+
+
+
+<h6>The below dat is used to create update</h6>
+{
+  "id":"1",
+  "user":"112",
+  "mobile": "333d",
+  "image":"rrrr",
+  "gender": "eeee",
+  "type": "fkfff",
+  "resume":"rlllllll"
+}
+
+<h6>The below dat is used to delete data</h6>
+
+{
+  "id": "4"
+  
+}
+
+</body>
+</html>
